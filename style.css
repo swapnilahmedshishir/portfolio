@@ -1,0 +1,129 @@
+*{
+margin: 0px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.name{
+    color:indianred;
+}
+h1{
+    font-size:50px;
+   
+}
+section{
+    height: 550px;
+    
+    
+}
+.haf-width{
+   float: left;
+   width: 40%;
+   padding-left: 4%;
+   margin: 2%;
+  
+}
+img{
+    width: 100%;
+}
+.text-area{
+    padding-top: 7px;
+    
+}
+.frist-section{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+}
+.bio-para{
+    margin: 15px 0px  25px  0px;
+    font-weight:500;
+    font-style: italic;   
+}
+.my-skill{
+    font-weight: 600;
+}
+.hire-btn{
+    padding:5px 20px;
+    font-size: 20px;
+    color: #fff;    
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.hire-btn:hover{
+    background: linear-gradient(40deg, tomato,lightsalmon );
+    
+}
+
+.second-section{
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-bottom: 50px;
+    
+    
+}
+.bio-headline{
+  margin-top: 25px;
+  font-size:22px;
+}
+.dream-bio{
+    padding-top:60px;
+}
+.exprience-section-heading{
+    font-size:40px;
+   margin-left: 0px;
+}
+.experience-area{
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    /* font-family: Poppins, sans-serif; */
+    margin-bottom:50px;
+}
+.experience-area h2{
+    color: #e00e07;
+    margin: 35px 0px;
+
+}
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 75%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(9, 238, 143), tomato);
+    border-image-slice: 1;
+    border-radius: 4px;
+}
+#font-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(216, 14, 235), cyan);
+    border-image-slice: 1;
+    border-radius: 4px;
+}
+.develper-box{
+    padding: 40px 20px;
+    margin-left: 50px;
+    
+}
+.develper-box p{
+    color:#696969;
+}
+footer{
+    background-color:#00000098;
+    height: 95px;
+    color: #fff;
+    text-align: center;
+    padding-top:20px;
+}
+.icon img{
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
